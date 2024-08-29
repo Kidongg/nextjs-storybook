@@ -35,7 +35,8 @@
     "eslint-plugin-storybook": "^0.8.0",
     "sass": "^1.77.8",
     "storybook": "^8.2.9",
-    "typescript": "^5"
+    "typescript": "^5",
+    "webpack": "^5.94.0"
   },
   "packageManager": "yarn@4.4.1"
 }

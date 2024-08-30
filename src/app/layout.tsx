@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import '@/src/styles/globals.scss'; // 글로벌 스타일 적용
-import { inter } from '@/public/fonts/font'; // 글로벌 폰트 적용
+import { nunito_sans } from '@/public/fonts/font'; // 글로벌 폰트 적용
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${nunito_sans.className} antialiased`}>{children}</body>
     </html>
   );
 }
